@@ -1,41 +1,34 @@
-# Brave Swap
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-[![npm version](https://badge.fury.io/js/@brave%2Fswap-interface.svg)](https://badge.fury.io/js/@brave%2Fswap-interface)
-![build](https://github.com/brave/swap/actions/workflows/build.yml/badge.svg)
+## Getting Started
 
-An open-source swap interface by Brave, focussed on usability and multi-chain
-support.
+First, run the development server:
 
-## Project structure
-
-```
-├── interface
-│
-├── sites
-│   ├── mock
-│   ├── bravedotcom
+```bash
+npm run dev
+# or
+yarn dev
 ```
 
-The project consists of three top-level directories:
-1. `interface` ⮕ library implementing the UI, and swap hooks.
-2. `sites` ⮕ full-blown applications that use the `interface` library.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-# Development
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-Since `interface` is a library, it cannot be run as a standalone application.
-We have therefore created a `sites/mock` application that can be used for local
-development. Please follow these instructions to setup a development environment
-with hot reloading. 
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-```shell
-$ cd swap/interface
-$ npm install
-$ npm run dev
-```
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-In another tab:
-```shell
-$ cd swap/sites/mock
-$ npm install
-$ npm start
-```
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

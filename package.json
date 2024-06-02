@@ -1,0 +1,43 @@
+{
+  "name": "swap.brave.com",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@brave/leo": "github:brave/leo#ffc0c01ec7f8ff8815638adfd8be509ff6877d6e",
+    "@rainbow-me/rainbowkit": "^0.8.1",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.35",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
+    "@solana/web3.js": "^1.91.8",
+    "@types/react-window": "^1.8.8",
+    "async": "^3.2.5",
+    "axios": "^1.2.1",
+    "brave-wallet-lists": "^1.1.16",
+    "ethereum-blockies": "github:brave/blockies#07ebdfa3ed79fceec8234ef8c880ebdefd79bf0a",
+    "ethers": "^5.7.2",
+    "next": "^13.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-virtualized-auto-sizer": "^1.0.24",
+    "react-window": "^1.8.10",
+    "styled-components": "^5.3.0",
+    "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^14.2.3",
+    "@types/node": "18.11.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "18.0.9",
+    "@types/styled-components": "5.1.26",
+    "copy-webpack-plugin": "^11.0.0",
+    "eslint": "8.29.0",
+    "eslint-config-next": "13.0.6"
+  }
+}
